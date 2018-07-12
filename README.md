@@ -1,3 +1,3 @@
 # Code for my website
 
-luis-gzz.surge.sh
+luisgzz.surge.sh
