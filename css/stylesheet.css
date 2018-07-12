@@ -1,0 +1,252 @@
+body {
+    font-family:sans-serif; /*Pick a font*/
+    margin: 0px;
+    background-color:ghostwhite;
+}
+
+nav {
+    background-color: black;
+    margin: 0px;
+    text-align: left;
+    overflow: hidden;
+    position: fixed;
+   
+}
+
+nav ul li a{
+    color: floralwhite;
+    background-color:black;
+    display: block;
+    line-height: 2em;
+    padding: 1em;
+    padding-left: 0em;
+    padding-right: 1.5em;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: monospace;
+
+}
+
+nav  ul li a:hover{
+    color: fuchsia;
+ 
+}
+
+
+
+#promos{
+    max-height: 50%;
+    max-width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+}
+
+footer{
+    background-color: darkgray;
+    margin-top: 50px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+   
+   -webkit-box-shadow: inset 0px 10px 10px -4px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: inset 0px 10px 10px -4px rgba(50, 50, 50, 0.5);
+    box-shadow: inset 0px 10px 10px -4px rgba(50, 50, 50, 0.5);
+}
+
+footer p{
+    font-size: 15px;
+    font-family: monospace;
+     text-align: justify;
+    line-height: 15px;
+}
+
+a.button{
+    background-color:darkblue; 
+    border: none;
+    color: ghostwhite;
+    padding: 20px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    width: 5em
+}
+
+a.button2{
+    background-color:darkred; 
+    border: none;
+    color: ghostwhite;
+    padding: 20px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    width: 5em;
+    margin-top: .35em
+}
+
+#header h1{
+    font-family:monospace;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100px;
+    margin-left: 60px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#headerImg { 
+    width: 10em;
+    height: 10em;
+    border-radius: 100px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+h2{
+    font-family:monospace;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    margin: 0px;
+    text-align:center;
+    margin-top: 10px;
+    color: darkgray;
+    
+    
+}
+
+h3{
+    font-family:monospace;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 90px;
+    padding-left: 8em;
+    margin: 0px;
+    text-align:left;
+    margin-top: 40px;
+    color: fuchsia;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 8.5em;
+    padding-right: 6em;
+    margin: 0px;
+    text-align:justify;
+    margin-top: 5px;
+}
+
+p{
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 8.5em;
+    padding-right: 6em;
+    margin: 0px;
+    text-align:justify;
+    margin-top: 5px;
+}
+
+#work p{
+     
+    font-size: 17px;
+    line-height: 30px;
+    padding-left: 13em;
+    padding-right: 13em;
+    text-align:justify;
+    margin-top: 5px;
+}
+
+#work div {
+    text-align: center;
+}
+
+#che{
+    
+    font-weight: 700;
+    font-size: 1.25em;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 2em;
+    
+}
+
+
+#aboutme li{
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    padding-left: 12em;
+    margin: 0px;
+    text-align:justify;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    list-style: disk;
+    
+}
+
+#contact div{
+    text-align: justify;
+    line-height: 60px;
+    padding-left: 17em;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+#contact label  {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+#contact input, textarea{
+    width: 250px;
+    font-family: monospace;
+    
+}
+
+textarea{
+    height: 5em;
+    font-family: monospace;
+    vertical-align: top;
+}
+
+#contact button{
+    background-color:darkblue; /* Green */
+    border: none;
+    color: ghostwhite;
+    padding: 12px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+}
+
+
+#contact a {
+   color: darkblue;
+}
