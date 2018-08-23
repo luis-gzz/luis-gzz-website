@@ -11,12 +11,19 @@
 </head>
 <body>
     
-    <div>
+    
+    
+    <div id = "pdfDoc">
+<!--
         <object data="../media/resumeLuisGzz.pdf" type="application/pdf" >
             alt : <a href="../media/resumeLuisGzz.pdf">Luis Gonzalez Resume</a>
         </object>
+-->
     </div>
     
-    
+    <script src="../js/pdfobject.min.js"></script>
+    <script>PDFObject.embed("../media/resumeLuisGzz.pdf", "#pdfDoc");</script>
 </body>
+    
+    
 </html>
